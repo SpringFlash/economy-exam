@@ -1,0 +1,25 @@
+li {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.5em;
+  margin-top: 15px;
+}
+
+li b {
+  display: block;
+  cursor: pointer;
+}
+
+li span {
+  display: none;
+}
+
+li.opened span {
+  display: block;
+}
+
+li b.not-answered {
+  color: red;
+  cursor: text;
+}
